@@ -146,6 +146,7 @@ div.container{
 .myprojects{
 	margin:0 auto;
 	width:95%;
+	text-align: center;
 }
 
 .myprojects h2{
@@ -182,11 +183,7 @@ figure h3{
 	font-weight: 300;
 }
 
-div.moreprojects{
-	text-align: center;
-}
-
-.moreprojects a{
+.myprojects>a{
 	display: inline-block;
 	font-size: 4em;
 	font-family: 'Teko', sans-serif;
@@ -195,7 +192,9 @@ div.moreprojects{
 	border-bottom: 2px;
 	border-color: #f63c3c;
 	border-style: solid;
-	margin-bottom: 50px;
+	text-align: center;
+	margin:0 auto 50px;
+	
 }
 
 /*-----HOVER STATE-----*/
@@ -262,13 +261,12 @@ aside ul li a {
 	display: block;
 	margin:0 auto;
 	color: #fff;
-	width: 30%;
 	text-decoration: none;
 	font-size: 3em;
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
 	position: relative;
-	top: 30px;
+	top: 40px;
 }
 
 aside ul li a div{
@@ -279,7 +277,7 @@ aside ul li a div{
 i.fa{
 	display:block;
 	font-size: 1em;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 main {
