@@ -15,6 +15,7 @@ h1, h2, h3{
 h2{
 	font-size: 4em;
 }
+
 h3{
 	font-size: 3em;
 }
@@ -37,6 +38,7 @@ header nav{
 	float: right;
 	font-family:'Titillium Web', sans-serif;
 }
+
 header nav ul li{
 	display: inline-block;
 	margin: 31px 40px 0px 0px;
@@ -48,11 +50,13 @@ header nav ul li a{
 	text-decoration: none;
 	font-size: 1.6em;	
 }
+
 .home{
 	border-bottom: 3px;
 	border-style:solid;
 	border-color:#f63c3c;
 }
+
 .home a{
 	color:#f63c3c;
 }
@@ -105,10 +109,12 @@ div.container{
 	text-decoration: none;
 	color: #000;
 }
+
 .maincarousel nav{
 	position: relative;
 	top: 40%;
 }
+
 .maincarousel nav ul li{
 	display: inline-block;
 	
@@ -175,9 +181,11 @@ figure h3{
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
 }
+
 div.moreprojects{
 	text-align: center;
 }
+
 .moreprojects a{
 	display: inline-block;
 	font-size: 4em;
